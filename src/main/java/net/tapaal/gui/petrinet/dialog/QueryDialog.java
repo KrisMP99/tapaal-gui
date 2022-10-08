@@ -492,14 +492,6 @@ public class QueryDialog extends JPanel {
             false
 		);
 
-		query.setUseStubbornReduction(useStubbornReduction.isSelected());
-
-		if(reductionOptionToSet.equals(ReductionOption.VerifyTAPN)){
-			query.setDiscreteInclusion(discreteInclusion.isSelected());
-		}
-		return query;
-	}
-
         query.setUseStubbornReduction(useStubbornReduction.isSelected());
 
         if(reductionOptionToSet.equals(ReductionOption.VerifyTAPN)){
